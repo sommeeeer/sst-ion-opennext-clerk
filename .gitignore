@@ -13,6 +13,10 @@
 /.next/
 /out/
 
+# prisma migrations
+prisma/migrations/
+seed*
+
 # production
 /build
 
@@ -27,6 +31,9 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+
+.vscode
 
 # vercel
 .vercel
@@ -34,3 +41,21 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# sst
+.sst
+
+# open-next
+.open-next
+
+# images to ignore
+/googlebilder/*
+
+# react-email-editor
+react-email-starter/*
+
+# backup
+backup/*
+
+# bruno files
+bruno_files/
